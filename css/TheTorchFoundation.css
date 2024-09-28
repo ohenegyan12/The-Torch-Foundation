@@ -750,8 +750,8 @@
 }
 
 .heroimageone {
-  margin-left: -54px;
-  width: 79.5%;
+  margin-left: -50px;
+  width: 79.7%;
   
 }
 
@@ -974,7 +974,7 @@
 
 .background-3 {
   margin-top: 36px;
-  margin-right: 94px;
+  margin-right: 50px;
   gap: var(--space-4xl);
   background-color: var(--gray_900);
   box-shadow: var(--shadow-xs);
