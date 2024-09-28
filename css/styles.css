@@ -1,0 +1,91 @@
+/*=========== TABLE OF CONTENTS ===========
+1. CSS Variables
+2. Utility CSS
+==========================================*/
+
+/*-------------------------------------
+  1. CSS Variables
+--------------------------------------*/
+:root {
+  /*------Color variables------*/
+  --amber_a400: #ffc100;
+  --black_900: #000000;
+  --black_900_19: #00000019;
+  --blue_gray_200: #b4c0d3;
+  --blue_gray_50: #eff0f6;
+  --blue_gray_900: #333333;
+  --cyan_900: #0f5156;
+  --cyan_900_01: #034369;
+  --gray_100: #faf6f3;
+  --gray_400: #bec5a3;
+  --gray_900: #251600;
+  --gray_900_01: #151515;
+  --gray_900_02: #3d2400;
+  --gray_900_14: #14142b14;
+  --gray_900_19: #25160019;
+  --green_50: #edf1dc;
+  --indigo_900: #1a1b6c;
+  --indigo_a200: #4875ee;
+  --indigo_a200_01: #4876ef;
+  --indigo_a200_02: #4876ee;
+  --light_blue_900: #095090;
+  --light_green_100: #dce1c8;
+  --light_green_50: #eef6ef;
+  --orange_a700: #ff6803;
+  --orange_a700_33: #ff680333;
+  --red_500: #ff2c2c;
+  --red_a100: #ef898b;
+  --teal_400: #34bc85;
+  --teal_a700: #00d3ab;
+  --white_a700: #ffffff;
+
+  /*------Shadow variables------*/
+  --shadow-xs: 0 6px 18px 0 #00000019;
+  --shadow-sm: 0 8px 24px 0 #00000019;
+  --shadow-md: 0 6px 18px 0 #25160019;
+  --shadow-lg: 0 2px 7px 0 #14142b14;
+
+  /*------Border radius variables------*/
+  --radius-xs: 1px;
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+  --radius-2xl: 14px;
+  --radius-3xl: 20px;
+  --radius-4xl: 32px;
+  --radius-5xl: 40px;
+
+  /*------Spacing variables------*/
+  --space-xs: 6px;
+  --space-sm: 8px;
+  --space-md: 10px;
+  --space-lg: 12px;
+  --space-xl: 14px;
+  --space-2xl: 16px;
+  --space-3xl: 17px;
+  --space-4xl: 20px;
+  --space-5xl: 21px;
+  --space-6xl: 22px;
+  --space-7xl: 28px;
+  --space-8xl: 30px;
+  --space-9xl: 34px;
+  --space-10xl: 40px;
+}
+
+/*-------------------------------------
+  2. Utility CSS
+--------------------------------------*/
+.flex-row-center-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col-center-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
